@@ -1,0 +1,23 @@
+[user]
+	email = infobot@csdl.tamu.edu
+	name = Anonymous Coward in Infolab
+
+[color]
+    diff = auto
+    branch = auto
+    status = auto
+    ui = auto
+
+[alias]
+    lor = log origin/master..
+    wc = whatchanged
+    lsr = ls-remote --heads origin
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    lg = log -p
+    lol = log --graph --decorate --pretty=oneline --abbrev-commit
+    lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    ls = ls-files
